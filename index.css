@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: 'Onest', sans-serif;
+}
+
+html {
+    background-color: rgba(30, 144, 255,0.1);
+}
+/* parent Container */
+.main-container {
+    height: auto;
+    width: 40rem;
+    margin: 4% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    margin: 10% auto 5% auto;
+}
+
+h1 {
+    letter-spacing: .1rem;
+}
+
+.underline{
+    width: 5rem;
+    border-bottom: 4px solid rgba(0, 0, 255,0.5);
+    margin: 0 auto;
+}
+
+.review {
+    height: auto;
+    width: 28rem;
+    border-radius: .3rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    margin-top: 10%;
+}
+
+.img-container {
+    position: relative;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+
+#person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+ }
+
+.review p,h3,h5 {
+    font-size: .7rem;
+    text-align: center;
+}
+
+.review p {
+    padding: .8rem .3rem;
+    color: rgba(93, 107, 122, 0.993);
+    line-height: 1.1rem;
+}
+
+.review h3 {
+    letter-spacing: .2rem;
+}
+
+.review h5 {
+    padding-top: .3rem;
+    letter-spacing: .05rem;
+    color: rgb(100, 149, 237);
+    font-weight: 500;
+    font-size: .5rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    background-color: transparent;
+    border: none;
+}
+
+.button-container i {
+    padding: 0 .5rem 0 .5rem;
+    color: rgba(100, 149, 237, 0.7);
+    font-size: 1.2rem;
+}
+
+.button-container i:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    color: rgb(100, 149, 237);
+}
+
+.button-container i:active {
+    transform: scale(0.96);
+}
+
+.random-btn {
+    text-align: center;
+    margin: .5rem auto 1rem auto;
+}
+
+#random {
+    letter-spacing: .05rem;
+    padding: .2rem;
+    border: 2px solid rgba(0, 0, 255,0.3);
+    border-radius: .2rem;
+    background-color: rgba(100, 149, 237,0.8);
+    color: white;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-weight: 500;
+}
+
+#random:hover {
+    border: 2px solid rgba(0, 0, 255,0.6);
+    background-color: rgb(100, 149, 237);
+    cursor: pointer;
+}
+
+#random:active {
+    background-color: rgb(30, 90, 150); 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transform: scale(0.98);
+}
