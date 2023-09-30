@@ -72,6 +72,8 @@ const review = [
       showPerson();
   })
   
+  // Random reviews
+
   random.addEventListener('click', () => {
       currentItem = Math.floor(Math.random() * review.length);
   
