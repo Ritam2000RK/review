@@ -56,7 +56,7 @@ const review = [
   
   right_btn.addEventListener('click', () => {
       currentItem++;
-      if(currentItem >= review.length) {
+      if(currentItem > review.length - 1) {
           currentItem = 0;
       }
   
