@@ -11,7 +11,7 @@ html {
 /* parent Container */
 .main-container {
     height: auto;
-    width: 40rem;
+    width: 60vw;
     margin: 4% auto;
     display: flex;
     flex-direction: column;
@@ -33,8 +33,8 @@ h1 {
 }
 
 .review {
-    height: auto;
-    width: 28rem;
+    height: 28rem;
+    width: 39rem;
     border-radius: .3rem;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -46,8 +46,8 @@ img {
 
 .img-container {
     position: relative;
-    width: 7rem;
-    height: 7rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 1.5rem;
@@ -63,14 +63,15 @@ img {
  }
 
 .review p,h3,h5 {
-    font-size: .7rem;
+    font-size: 1rem;
     text-align: center;
 }
 
 .review p {
     padding: .8rem .3rem;
+    margin: 0 1rem;
     color: rgba(93, 107, 122, 0.993);
-    line-height: 1.1rem;
+    line-height: 1.5rem;
 }
 
 .review h3 {
@@ -82,7 +83,7 @@ img {
     letter-spacing: .05rem;
     color: rgb(100, 149, 237);
     font-weight: 500;
-    font-size: .5rem;
+    font-size: 1rem;
 }
 
 .button-container {
@@ -98,7 +99,7 @@ img {
 .button-container i {
     padding: 0 .5rem 0 .5rem;
     color: rgba(100, 149, 237, 0.7);
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .button-container i:hover {
@@ -113,11 +114,12 @@ img {
 
 .random-btn {
     text-align: center;
-    margin: .5rem auto 1rem auto;
+    margin: 1rem auto 1rem auto;
+
 }
 
 #random {
-    letter-spacing: .05rem;
+    letter-spacing: .1rem;
     padding: .2rem;
     border: 2px solid rgba(0, 0, 255,0.3);
     border-radius: .2rem;
